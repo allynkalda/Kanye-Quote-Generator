@@ -37,6 +37,5 @@ function start() {
 	var random = Math.floor((Math.random() * 26) + 1);
 
 	document.getElementById("quote").innerHTML = quotes[random];
-	console.log(random);
 }
 
