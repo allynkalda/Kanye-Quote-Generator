@@ -8,6 +8,10 @@ h2 {
 body {
 	background-color: #A8CC5B;
 }
+img {
+  max-width:100%;
+  height:auto;
+}
 .container {
 	width: 100%;
 	padding: 30px;
