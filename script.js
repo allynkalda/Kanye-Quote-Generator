@@ -29,9 +29,6 @@ var quotes = [
 "\"I've been brought up in this way. I think I can't work with anyone that isn't number one: Jay Z, Kim, Obama, Apple is one, Samsung isn't.\"",
 "\"We worked on our wedding photo for four days until it was good enough for Instagram.\"",
 ]
-// Show blank page
-//document.getElementById("quote").style.display = "none";
-
 
 
 // Function runs when button is clicked
