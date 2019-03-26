@@ -1,45 +1,45 @@
-// Create array full of quotes
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Anton');
 
-var quotes = [
-"I am God's vessel. But my greatest pain in life is that I will never be able to see myself perform live." ,
-"I still think I am the greatest." ,
-"Keep your nose out the sky, keep your heart to god, and keep your face to the rising sun." ,
-"My greatest award is what I'm about to do." ,
-"Believe in your flyness...conquer your shyness." ,
-"I feel like I'm too busy writing history to read it.", 
-"People say I have a bad reputation. I think I've got the best reputation in the building.",
-"I'm on the pursuit of awesomeness, excellence is the bare minimum.",
-"People always tell you 'Be humble. Be humble.' When was the last time someone told you to be amazing? Be great! Be awesome! Be awesome!",
-"I want the world to be better! All I want is positive! All I want is dopeness!",
-"You can't look at a glass half full or empty if it's overflowing.",
-"Truth is my goal. Controversy is my gym. I'll do a hundred reps of controversy for a 6 pack of truth.",
-"I will be the leader of a company that ends up being worth billions of dollar because I got the answers. I understand culture. I am the nucleus.",
-"My goal, if I was going to do art, fine art, would have been to become Picasso or greater.",
-"When you're the absolute best, you get hated on the most.",
-"I don't want to say these really big over-the-top statements that end up getting quoted.",
-"Bad taste is vulgar. The world as a whole is f--king ugly. And the internet too. But I'm not in the construction business.",
-"Don't ask me what I think the best song of last year was, because my opinion is the same as most of America's. It was 'Gold Digger.'",
-"Trends come and go, but cool is forever.",
-"Come on now! How could you be me and want to be someone else?",
-"You know, if Michael Jordan can scream at the refs, me as Kanye West, as the Michael Jordan of music, can go and say, 'This is wrong.'",
-"I think what Kanye West is going to mean is something similar to what Steve Jobs means. I am undoubtedly, you know, Steve of internet, downtown, fashion, culture. Period.",
-"I am not a fan of books. I would never want a book's autograph. I am a proud nonreader of books.",
-"If people are saying you're wrong, it's probably a good sign that you're a genius.",
-"I'm my favorite rapper.",
-"I've been brought up in this way—I think I can't work with anyone that isn't number one: Jay Z, Kim, Obama, Apple is one, Samsung isn't.",
-"We worked on our wedding photo for four days until it was good enough for Instagram.",
-]
-// Show blank page
-//document.getElementById("quote").style.display = "none";
-
-
-
-// Function runs when button is clicked
-function start() {
-	// Generate random number associated to quotes
-	var random = Math.floor((Math.random() * 26) + 1);
-
-	document.getElementById("quote").innerHTML = quotes[random];
-	console.log(random);
+h2 {
+	font-family: Merriweather, serif;
+	line-height: 40px;
 }
-
+body {
+	background-color: #A8CC5B;
+}
+.container {
+	width: 100%;
+	padding: 30px;
+}
+.box1 {
+	float: left;
+	width: 40%;
+	text-align: center;
+	margin-left: 50px;
+  	position: absolute;
+  	top: 50%;
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+.box2 {
+	float: right;
+	width: 50%;
+}
+.button {
+	margin-top: 10px;
+	height: 50px;
+	width: 120px;
+	border-radius: 10px;
+	background-size: 42px 42px;
+	background-color: #F2C14E;
+	border: none;
+	font-size: 20px;
+	font-family: Anton, serif;
+}
+.button:hover {
+	background-color: #EE7F53;
+}
+.button:focus { 
+	outline:none 
+}
