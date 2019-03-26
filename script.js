@@ -18,7 +18,7 @@ var quotes = [
 "\"When you're the absolute best, you get hated on the most.\"",
 "\"I don't want to say these really big over-the-top statements that end up getting quoted.\"",
 "\"Bad taste is vulgar. The world as a whole is f--king ugly. And the internet too. But I'm not in the construction business.\"",
-"\"I hate when I’m on a flight and I wake up with a water bottle next to me like oh great now I gotta be responsible for this water bottle.\"",
+"\"I hate when I'm on a flight and I wake up with a water bottle next to me like oh great now I gotta be responsible for this water bottle.\"",
 "\"Trends come and go, but cool is forever.\"",
 "\"Come on now! How could you be me and want to be someone else?\"",
 "\"You know, if Michael Jordan can scream at the refs, me as Kanye West, as the Michael Jordan of music, can go and say, 'This is wrong.'\"",
@@ -29,9 +29,9 @@ var quotes = [
 "\"I've been brought up in this way. I think I can't work with anyone that isn't number one: Jay Z, Kim, Obama, Apple is one, Samsung isn't.\"",
 "\"We worked on our wedding photo for four days until it was good enough for Instagram.\"",
 ]
-// Show blank page
-//document.getElementById("quote").style.display = "none";
 
+var bleep = new Audio();
+bleep.src = "kanye.wav";
 
 
 // Function runs when button is clicked
