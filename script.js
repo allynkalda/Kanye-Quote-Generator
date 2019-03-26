@@ -10,7 +10,7 @@ var quotes = [
 "\"People say I have a bad reputation. I think I've got the best reputation in the building.\"",
 "\"I'm on the pursuit of awesomeness, excellence is the bare minimum.\"",
 "\"People always tell you 'Be humble. Be humble.' When was the last time someone told you to be amazing? Be great! Be awesome! Be awesome!\"",
-"\"If you read books - which I don't, none at all - about how to become a billionaire, they always say, 'You learn more from your mistakes.'' So if you learn from your mistakes, then I'm a f*cking genius.\"",
+"\"If you read books - which I don't, none at all - about how to become a billionaire, they always say, 'You learn more from your mistakes.' So if you learn from your mistakes, then I'm a f*cking genius.\"",
 "\"You can't look at a glass half full or empty if it's overflowing.\"",
 "\"Truth is my goal. Controversy is my gym. I'll do a hundred reps of controversy for a 6 pack of truth.\"",
 "\"I will be the leader of a company that ends up being worth billions of dollar because I got the answers. I understand culture. I am the nucleus.\"",
